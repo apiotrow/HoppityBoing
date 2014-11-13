@@ -51,7 +51,7 @@ public class AccelerometerMakeBounce : MonoBehaviour
 
 		Vector3 jumpVector = new Vector3 (0, yAccel * 100f, 0);
 
-		if (yAccelabs > 2 && transform.position.y < 1.5f) {
+		if (yAccelabs > 2 && transform.position.y < 1.1f) {
 			rigidbody.AddForce (jumpVector);
 		}
 			
