@@ -20,9 +20,9 @@ public class CarlBounce : MonoBehaviour {
 	{
 		//if (other.gameObject.name == "TrampolineMesh") {
 		if (other.gameObject == trampMesh) {
-			Debug.Log("hi");
+			//Debug.Log("hi");
 			rigidbody.velocity = Vector3.zero;
-			rigidbody.AddForce(new Vector3(0f, 100000f, 0f));
+			rigidbody.AddForce(new Vector3(0f, 50000f, 0f));
 			
 		}
 	}
